@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="./src/imagens/logo-dragonBallZ.png"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
+
+    <title>Dragon Ball Z Super Hero</title>
+  </head>
+  <body>
+    <div class="fundo-video">
+      <video class="video" autoplay loop muted>
+        <source
+          src="./src/video/Dragon Ball Super_ Super Hero New Trailer - Battle Now (2022).mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+
+    <header class="cabecalho">
+      <a>
+        <img
+          class="logo"
+          src="./src/imagens/logo-dragonBallZ.png"
+          alt="Logo Dragon Ball Z"
+        />
+      </a>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Detalhes</a></li>
+          <li><a href="#">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="informacoes">
+        <img
+          class="imagem-titulo"
+          src="./src/imagens/Dragon_Ball_Super_Super_Hero_Logo.png"
+          alt="imagem do título do filme"
+        />
+        <p class="descricao">
+          Dragon Ball (especialmente na fase 'Z') foi um fenômeno na América
+          Latina, já na virada dos anos 1990 para os 2000. Este longa-metragem,
+          chamado 'Dragon Ball Super: Super Hero', foi feito justamente para
+          esse público, apostando na nostalgia e na comunhão dos fãs do passado.
+        </p>
+        <button class="botao-trailer">Veja o trailer</button>
+      </div>
+      <img
+        class="goku"
+        src="./src/imagens/normal.jpg"
+        alt="Personagem Goku versão normal"
+        id="goku"
+      />
+
+      <div class="modal">
+        <div class="conteudo-modal">
+          <span class="fechar-modal">X</span>
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/HNY3rlgfxvA"
+            title="Trailer Oficial"
+            frameborder="1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </main>
+
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
