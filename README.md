@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <img alt="Landing Page DragonBall" src=".github/preview.png" width="100%">
+  <img alt="Landing Page DragonBall" src="preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
